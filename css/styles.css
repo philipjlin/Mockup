@@ -1,0 +1,234 @@
+/***** BASE *****/
+body{
+
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid{
+
+  padding: 4% 15%;
+}
+
+.section-title{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 5% auto 5%;
+}
+
+
+
+/***** NAVIGATION MENU*****/
+#navigation{
+
+  text-align: left;
+  color: white;
+  background-color: #357C3C;
+  padding-bottom: 0;
+}
+
+.navbar{
+
+  display: block;
+}
+
+.navbar-brand{
+
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav{
+
+  margin: 5% auto 0;
+}
+
+.nav-link{
+
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0 30px 0;
+}
+
+
+
+/***** TITLE SECTION*****/
+#navigation, #title{
+
+  text-align: left;
+  color: white;
+  background-color: #357C3C;
+}
+
+.slogan{
+
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 20%;
+}
+
+.title-image{
+
+  transform: rotate(20deg);
+  width: 70%;
+  margin-left: 20%;
+}
+
+.download-btn{
+
+  margin: 5% 5% 0 0;
+}
+
+.plant-icon{
+
+  font-size: 1.5rem;
+  color: #357C3C;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+
+
+/***** ABOUT *****/
+.about-list{
+
+  list-style: none;
+  margin-bottom: 10%;
+}
+
+.about-list-item{
+
+  color: #808080;
+  font-size: 1.2rem;
+  margin-top: 3%;
+}
+
+
+
+/***** REVIEWS *****/
+#reviews, #media{
+
+  color: white;
+  background-color: #83BD75;
+}
+
+.review-quote{
+
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  padding-top: 10%;
+}
+
+.review-image{
+
+  width: 5%;
+  margin: 2%;
+}
+
+
+
+/***** MEDIA *****/
+.media-mentions{
+
+  padding-top: 10%;
+}
+
+.media-logo{
+
+  width: 15%;
+  margin: 5% 2%;
+}
+
+
+
+/***** PLANS *****/
+#plans{
+
+  padding-top: 4$;
+}
+
+.plans-grid{
+
+  justify-content: center;
+}
+
+.bronze{
+
+  background-color: #CD7F32;
+}
+
+.silver{
+
+  background-color: #C0C0C0;
+}
+
+.gold{
+
+  background-color: #FFD700;
+}
+
+.card{
+
+  padding: 0;
+  margin: 1%;
+}
+
+
+
+/***** PROMOTION *****/
+#promo{
+
+  color: white;
+  background-color: #357C3C;
+  text-align: center;
+  padding-bottom: 10%;
+
+}
+
+.promo-headline{
+
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+/***** FOOTER *****/
+.social-icon{
+
+  margin: 2%;
+  height: 3%;
+  width: 3%;
+}
+
+.social-icon:hover{
+
+  color: #357C3C;
+}
+
+
+
+/*** RESPONSIVE CSS ***/
+@media (max-width: 1028px){
+
+  #title{
+
+    text-align: center;
+  }
+
+  .title-image{
+
+    margin: 0;
+    transform: rotate(0);
+  }
+}
