@@ -2,7 +2,7 @@
 
 
 ## Repository
-<https://github.com/philipjlin/SpaceSharing>
+<https://github.com/philipjlin/Mockup>
 
 
 ## Description
@@ -10,6 +10,10 @@
 
 ## Technologies
 Front-end development in HTML/CSS.
+
+
+## High Level Components
+    * Index
 
 
 ## Class Overview
