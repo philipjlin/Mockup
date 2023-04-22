@@ -15,8 +15,8 @@ Additional styling elements using Bootstrap.
 
 
 ## High Level Components
-    * Landing page
-    * Style sheet
+    * HTML landing page
+    * CSS style sheet
 
 
 ## Views
